@@ -25,3 +25,18 @@ also allow me to control home appliances.
 
 This whole project will be opensource and i will also be posting blog posts and videos of this project.
 
+I researched about the [mqtt](http://mqtt.org/) protocol which is very light weight and work on publish/subscribe principle.
+I have already installed [mosquitto](https://mosquitto.org/) on my raspberry pi which is a mqtt broker application to which other nodes will connect.
+These nodes will subscribe to channels and will get the info broadcasted in that channel.
+
+##### Next TODO steps
+ - Simple toggle of LED using node web server
+
+##### Things need to be connected/controlled
+    * Main power available
+    * Outside temperature
+    * Water tank level
+    * On/Off lights and fans
+    * Light outside
+    * Wind Speed
+
