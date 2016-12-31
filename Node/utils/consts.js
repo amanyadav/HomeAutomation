@@ -7,6 +7,9 @@ module.exports = {
     'STATUS_CODE_SUCCESS': 'success',
 
     //messages
-    'MSG_SUCCESS':'Request successfull!!'
+    'MSG_SUCCESS':'Request successfull!!',
+    'MSG_UNABLE_TO_WRITE':'Unable to write data',
+    'MSG_UNABLE_TO_READ':'Unable to read data'
+
 
 };
